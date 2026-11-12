@@ -1,4 +1,4 @@
-print("Answer 3 qustions and i will tell you which pool you can swim in.\n")
+print("Answer 3 questions and i will tell you which pool you can swim in.\n")
 age = int(input("How old are you "))
 can_swim = input("Can you swim 25 meters? (yes/no): ").lower()
 adult_here = input("Is an adult with you? (yes/no):").lower()
@@ -29,7 +29,7 @@ elif age >= 18 and can_swim == "yes":
 elif age >= 12 and can_swim == "yes":
     print("Main pool access with adult nearby")
 elif can_swim == "no" and not (adult_here =="yes"):
-  print("Verdict    :Shallow end only, please find an adult first")
+ print("Verdict    :Shallow end only, please find an adult first")
 else:
  print("Verdict     :Shallow end today - come back with an adult for more.")
 print()
